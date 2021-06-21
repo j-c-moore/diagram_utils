@@ -1,0 +1,19 @@
+!$border_color = "#black"
+!$external_color = "#lightgrey"
+!$outside_party_color = "#palegreen"
+!$internal_color = "#lightblue"
+!$log_color = "#palegreen"
+!$error_color = "#lightcoral"
+!$sleep_color = "#thistle"
+skinparam {
+        ArrowColor $border_color
+}
+skinparam sequence {
+        ParticipantBorderColor $border_color
+}
+skinparam activity {
+        BorderColor $border_color
+        DiamondBorderColor $border_color
+}
+skinparam ConditionEndStyle hline
+skinparam AgentBorderColor $border_color
